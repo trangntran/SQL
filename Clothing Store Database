@@ -1,0 +1,27 @@
+
+CREATE TABLE clothing_store (id INTEGER PRIMARY KEY, item TEXT, quantity INTEGER, size TEXT, colour TEXT, price NUMERIC);
+
+
+INSERT INTO clothing_store VALUES (1, "t-shirt", 5, "S" , "red", 10.00);
+
+INSERT INTO clothing_store VALUES (2, "jeans", 7, "M" , "black", 15.00);
+
+INSERT INTO clothing_store VALUES (3, "dress", 7, "XS" , "blue", 17.00);
+
+INSERT INTO clothing_store VALUES (4, "short", 6, "S", "red", 12.00);
+
+INSERT INTO clothing_store VALUES (5, "blouse", 9, "XS", "yellow", 17.00);
+
+INSERT INTO clothing_store VALUES (6, "sleepwear", 10, "S", "white", 15.00);
+
+INSERT INTO clothing_store VALUES (7, "jacket", 5, "M", "black", 5.00);
+
+INSERT INTO clothing_store VALUES (8, "suits", 6, "S", "beige", 25.00);
+
+ISERT INTO clothing_store VALUES (9, "sweater", 9, "L", "pink", 20.00);
+
+INSERT INTO clothing_store VALUES (10, "bodysuits", "M", "black", 15.00); 
+
+SELECT *FROM clothing_store; 
+
+SELECT * FROM clothing_store WHERE quantity > 6 ORDER BY quantity; 
